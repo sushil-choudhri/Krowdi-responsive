@@ -1,0 +1,27 @@
+.chip_container {
+  width: 10rem;
+  height: 2rem;
+  /* border: 1px solid black; */
+
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.chip_text {
+  color: white;
+  font-size: 0.9rem;
+}
+.chip_img {
+  width: 1rem;
+}
+.unselected_chip_img {
+  padding-bottom: 3px;
+}
+.unselected_chip_container {
+  background-color: black;
+}
+.selected_chip_container {
+  background-color: #4daaa7;
+}
